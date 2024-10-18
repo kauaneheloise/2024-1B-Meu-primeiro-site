@@ -1,6 +1,45 @@
+@import url ()
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{--fire-engine-red: #d32828ff;
     --linen: #f5eae3ff;
     --drab-dark-brown: #454411ff;
     --olivine: #aec289ff;
     --cerise: #cd4662ff;
-    }
+    --fonte-titulo:  "Open Sans", sans-serif;
+     --fonte-texto:"Playfair Display", serif;
+}
+
+body {
+    background-color: var (--cerise);
+    font-family: var (--fonte-titulo);
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--linen);
+}
+
+.cabecalho-logo{
+    width: 10%;
+    border-radius:100% ;
+    padding: lem;
+
+}
+.cabecalho-link{
+    text-decoration: none;
+    color: var(--drab-dark-brown);
+    font-size: 2em;
+    margin-right: 1em;
+}
+
+.cabecalho-link: houver{
+    color: var ()
+
+}
