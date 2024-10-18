@@ -40,6 +40,8 @@ body {
 }
 
 .cabecalho-link: houver{
-    color: var ()
+    color: var (--linen)
+    font-size: 1.9em;
+    transition: 0.3s;
 
 }
